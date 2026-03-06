@@ -1,0 +1,267 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║          🛡️  SALAMATI - INSTALLATION MOBILE VISUELLE 📱                  ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│  ÉTAPE 1: SUR VOTRE ORDINATEUR 💻                                      │
+│  ─────────────────────────────────────────────────────────────────     │
+│                                                                         │
+│    Terminal:                                                            │
+│    ┌─────────────────────────────────────────────────┐                 │
+│    │  $ npm run dev                                  │                 │
+│    │                                                 │                 │
+│    │  VITE ready in 234 ms                           │                 │
+│    │                                                 │                 │
+│    │  ➜ Local:   http://localhost:5173/             │                 │
+│    │  ➜ Network: http://192.168.1.10:5173/ ⭐       │                 │
+│    └─────────────────────────────────────────────────┘                 │
+│                                                                         │
+│    ✏️  NOTEZ cette adresse: http://192.168.1.10:5173                   │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│  ÉTAPE 2: SUR VOTRE MOBILE 📱                                          │
+│  ─────────────────────────────────────────────────────────────────     │
+│                                                                         │
+│    1. Même WiFi que l'ordinateur ✅                                     │
+│                                                                         │
+│    2. Ouvrir le navigateur:                                             │
+│       • iPhone/iPad → Safari (important!)                               │
+│       • Android → Chrome (recommandé)                                   │
+│                                                                         │
+│    3. Taper l'adresse notée:                                            │
+│       ┌─────────────────────────────────────────┐                      │
+│       │  http://192.168.1.10:5173               │                      │
+│       │                                         │                      │
+│       │              [Aller →]                  │                      │
+│       └─────────────────────────────────────────┘                      │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│  ÉTAPE 3A: INSTALLER - ANDROID 🤖                                      │
+│  ─────────────────────────────────────────────────────────────────     │
+│                                                                         │
+│    L'app s'affiche, puis une bannière apparaît:                         │
+│                                                                         │
+│    ┌───────────────────────────────────────────────────┐               │
+│    │  📲  Installer Salamati                           │               │
+│    │                                                   │               │
+│    │  Application de sécurité pour femmes             │               │
+│    │                                                   │               │
+│    │          [Installer]     [✕]                     │               │
+│    └───────────────────────────────────────────────────┘               │
+│                                                                         │
+│    Tapez "Installer"                                                    │
+│                                                                         │
+│    OU manuellement:                                                     │
+│    Menu ⋮ (3 points) → "Installer l'application"                       │
+│                                                                         │
+│    ✅ L'icône Salamati apparaît sur votre écran d'accueil!             │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│  ÉTAPE 3B: INSTALLER - iPHONE/iPAD 🍎                                 │
+│  ─────────────────────────────────────────────────────────────────     │
+│                                                                         │
+│    Dans Safari, en bas de l'écran:                                      │
+│                                                                         │
+│    ┌───────────────────────────────────────────────────┐               │
+│    │                                                   │               │
+│    │  [🔙]  [🔜]  [📤]  [📖]  [⋯]                    │               │
+│    │         ↑                                         │               │
+│    │         Tapez ici!                                │               │
+│    └───────────────────────────────────────────────────┘               │
+│                                                                         │
+│    Un menu s'ouvre:                                                     │
+│    ┌───────────────────────────────────────────────────┐               │
+│    │  ├ AirDrop                                        │               │
+│    │  ├ Messages                                       │               │
+│    │  ├ Mail                                           │               │
+│    │  │ ...                                            │               │
+│    │  ├ Sur l'écran d'accueil ⭐                       │               │
+│    │  ├ Ajouter aux favoris                            │               │
+│    │  └ ...                                            │               │
+│    └───────────────────────────────────────────────────┘               │
+│                                                                         │
+│    Tapez "Sur l'écran d'accueil"                                        │
+│                                                                         │
+│    Une fenêtre s'ouvre:                                                 │
+│    ┌───────────────────────────────────────────────────┐               │
+│    │  Nouvelle icône                                   │               │
+│    │                                                   │               │
+│    │  🛡️                                               │               │
+│    │                                                   │               │
+│    │  Salamati                                         │               │
+│    │                                                   │               │
+│    │          [Annuler]    [Ajouter]                  │               │
+│    └───────────────────────────────────────────────────┘               │
+│                                                                         │
+│    Tapez "Ajouter"                                                      │
+│                                                                         │
+│    ✅ L'icône Salamati apparaît sur votre écran d'accueil!             │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│  RÉSULTAT FINAL 🎉                                                     │
+│  ─────────────────────────────────────────────────────────────────     │
+│                                                                         │
+│    Votre écran d'accueil:                                               │
+│                                                                         │
+│    ┌───────────────────────────────────────┐                           │
+│    │  📱 Téléphone    📧 Mail    🛡️ Salamati│                          │
+│    │                                       │                           │
+│    │  📷 Photos      💬 Messages  🎵 Musique│                          │
+│    │                                       │                           │
+│    │  📖 Safari      ⚙️ Réglages  🗺️ Plans  │                          │
+│    │                                       │                           │
+│    │  ────────────────────────             │                           │
+│    │                                       │                           │
+│    └───────────────────────────────────────┘                           │
+│                                                                         │
+│    Tapez sur l'icône Salamati pour ouvrir l'app! 🎯                    │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│  PREMIÈRE UTILISATION ✨                                               │
+│  ─────────────────────────────────────────────────────────────────     │
+│                                                                         │
+│    L'app demande des permissions:                                       │
+│                                                                         │
+│    ┌─────────────────────────────────────────────┐                     │
+│    │  "Salamati" souhaite accéder à votre       │                     │
+│    │  localisation                               │                     │
+│    │                                             │                     │
+│    │  Pour partager votre position en cas       │                     │
+│    │  d'urgence                                  │                     │
+│    │                                             │                     │
+│    │  [Refuser]  [Autoriser une fois]           │                     │
+│    │             [Toujours autoriser] ⭐         │                     │
+│    └─────────────────────────────────────────────┘                     │
+│                                                                         │
+│    ✅ Tapez "Toujours autoriser" (recommandé)                          │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│  AJOUTER UN CONTACT D'URGENCE 👥                                       │
+│  ─────────────────────────────────────────────────────────────────     │
+│                                                                         │
+│    Dans l'app, section "Contacts d'urgence":                            │
+│                                                                         │
+│    ┌─────────────────────────────────────────────┐                     │
+│    │  Contacts d'Urgence                         │                     │
+│    │                                             │                     │
+│    │  Aucun contact configuré                    │                     │
+│    │                                             │                     │
+│    │  [+ Ajouter Contact]                        │                     │
+│    └─────────────────────────────────────────────┘                     │
+│                                                                         │
+│    Tapez "+ Ajouter Contact"                                            │
+│                                                                         │
+│    Remplissez:                                                          │
+│    ┌─────────────────────────────────────────────┐                     │
+│    │  Nom: [Maman              ]                 │                     │
+│    │  Téléphone: [0612345678   ]                 │                     │
+│    │  Relation: [Famille        ]                 │                     │
+│    │                                             │                     │
+│    │  [Annuler]            [Ajouter]             │                     │
+│    └─────────────────────────────────────────────┘                     │
+│                                                                         │
+│    ✅ Tapez "Ajouter"                                                   │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│  TESTER LE BOUTON SOS 🆘                                               │
+│  ─────────────────────────────────────────────────────────────────     │
+│                                                                         │
+│    En bas de l'écran, grand bouton rouge:                               │
+│                                                                         │
+│    ┌─────────────────────────────────────────────┐                     │
+│    │                                             │                     │
+│    │   ╔════════════════════════════════════╗   │                     │
+│    │   ║                                    ║   │                     │
+│    │   ║              S O S                 ║   │                     │
+│    │   ║                                    ║   │                     │
+│    │   ╚════════════════════════════════════╝   │                     │
+│    │                                             │                     │
+│    │     Maintenez 3 secondes pour alerter      │                     │
+│    └─────────────────────────────────────────────┘                     │
+│                                                                         │
+│    Pour TESTER (sans envoyer):                                          │
+│    1. Maintenez le bouton                                               │
+│    2. Vous verrez: 3... 2... 1...                                       │
+│    3. RELÂCHEZ avant 0 pour annuler                                     │
+│                                                                         │
+│    ✅ Vous sentez des vibrations? Bon signe!                            │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+
+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║  ✅ FÉLICITATIONS! SALAMATI EST INSTALLÉE! 🎉                            ║
+║                                                                           ║
+║  Vous pouvez maintenant:                                                  ║
+║  • Utiliser le bouton SOS en cas d'urgence                                ║
+║  • Ajouter plus de contacts (jusqu'à 5)                                   ║
+║  • Explorer l'assistant juridique (bouton violet)                         ║
+║  • Configurer les actions rapides                                         ║
+║  • Consulter les numéros d'urgence                                        ║
+║                                                                           ║
+║  📚 BESOIN D'AIDE?                                                        ║
+║  • UTILISATION_MOBILE.txt (guide express)                                 ║
+║  • DEMARRAGE_RAPIDE.md (installation détaillée)                           ║
+║  • ASTUCES_MOBILE.md (optimisations)                                      ║
+║                                                                           ║
+║  🛡️ SALAMATI - Votre sécurité, notre priorité 🇲🇦                        ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+
+═══════════════════════════════════════════════════════════════════════════
+  NUMÉROS D'URGENCE MAROCAINS (Déjà dans l'app)
+═══════════════════════════════════════════════════════════════════════════
+
+  🚓  Police ........................... 19
+  🚔  Gendarmerie Royale .............. 177
+  🚒  Protection Civile ................ 15
+  🚑  SAMU ............................ 141
+  💊  Centre Antipoison ...... 0801 000 180
+  📞  Violence contre femmes ......... 8350
+  👶  SOS Enfants .................... 2511
+
+═══════════════════════════════════════════════════════════════════════════
+
+
+⚠️  IMPORTANT: En cas de danger immédiat, appelez TOUJOURS les autorités
+    (Police: 19 ou Gendarmerie: 177) AVANT d'utiliser l'application.
+
+    Salamati est un complément, pas un remplacement des services d'urgence.
+
+
+🌟  Partagez Salamati avec vos amies et famille!
+    Plus nous sommes, plus nous sommes en sécurité. 💜

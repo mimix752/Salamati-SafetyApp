@@ -1,0 +1,146 @@
+═══════════════════════════════════════════════════════════════
+    📱 SALAMATI - UTILISATION SUR MOBILE - GUIDE EXPRESS
+═══════════════════════════════════════════════════════════════
+
+🚀 INSTALLATION RAPIDE (3 ÉTAPES)
+═══════════════════════════════════════════════════════════════
+
+ÉTAPE 1: Démarrer le serveur
+────────────────────────────────────────────────────────────────
+  npm run dev
+
+
+ÉTAPE 2: Accéder depuis votre mobile
+────────────────────────────────────────────────────────────────
+
+  🔷 MÉTHODE A - MÊME WIFI (Recommandé pour test)
+  
+     1. Trouvez votre IP:
+        Windows: cmd → ipconfig
+        Mac/Linux: terminal → ifconfig
+        
+     2. Notez l'IP (ex: 192.168.1.10)
+     
+     3. Sur mobile, ouvrez: http://192.168.1.10:5173
+  
+
+  🔷 MÉTHODE B - NGROK (Accès partout)
+  
+     1. Téléchargez: https://ngrok.com/download
+     
+     2. Terminal: ngrok http 5173
+     
+     3. Copiez l'URL (ex: https://abc123.ngrok.io)
+     
+     4. Ouvrez cette URL sur mobile
+
+
+ÉTAPE 3: Installer l'application
+────────────────────────────────────────────────────────────────
+
+  📱 ANDROID (Chrome):
+     → Bannière "Installer Salamati" apparaît
+     → Cliquez sur "Installer"
+     → OU: Menu ⋮ → "Installer l'application"
+  
+
+  🍎 iPHONE/iPAD (Safari uniquement!):
+     → Ouvrez dans Safari
+     → Tapez bouton Partager 📤 (en bas)
+     → "Sur l'écran d'accueil"
+     → "Ajouter"
+
+
+═══════════════════════════════════════════════════════════════
+✅ CHECKLIST PREMIÈRE UTILISATION
+═══════════════════════════════════════════════════════════════
+
+  ☐ Ouvrir l'app depuis l'écran d'accueil
+  ☐ Ajouter 2-3 contacts d'urgence
+  ☐ Tester le bouton SOS (maintenir 3 sec)
+  ☐ Autoriser la géolocalisation
+  ☐ Explorer l'assistant juridique (bouton violet)
+  ☐ Tester l'alarme sonore
+
+
+═══════════════════════════════════════════════════════════════
+🔧 PROBLÈMES FRÉQUENTS
+═══════════════════════════════════════════════════════════════
+
+❌ "Impossible de se connecter"
+   ✅ Vérifiez le même WiFi
+   ✅ Désactivez le pare-feu temporairement
+   ✅ Utilisez Ngrok
+
+❌ "Le bouton Installer n'apparaît pas"
+   ✅ iOS: Utilisez Safari (pas Chrome!)
+   ✅ Android: Utilisez Chrome
+   ✅ Rechargez la page
+
+❌ "Géolocalisation ne fonctionne pas"
+   ✅ Autorisez les permissions
+   ✅ iOS: Réglages → Safari → Localisation
+   ✅ Activez le GPS
+
+❌ "Bouton SOS ne fonctionne pas"
+   ✅ Ajoutez au moins 1 contact
+   ✅ MAINTENEZ le bouton (ne tapez pas)
+   ✅ Autorisez la localisation
+
+
+═══════════════════════════════════════════════════════════════
+🌐 DÉPLOIEMENT PRODUCTION (Optionnel)
+═══════════════════════════════════════════════════════════════
+
+Pour rendre l'app accessible sur Internet:
+
+  🔷 VERCEL (Le plus simple):
+     npm install -g vercel
+     vercel
+     
+  🔷 NETLIFY:
+     npm run build
+     npm install -g netlify-cli
+     netlify deploy --prod
+
+
+═══════════════════════════════════════════════════════════════
+📋 NUMÉROS D'URGENCE MAROCAINS (Pré-configurés)
+═══════════════════════════════════════════════════════════════
+
+  🚓 Police: 19
+  🚔 Gendarmerie: 177
+  🚒 Protection Civile: 15
+  🚑 SAMU: 141
+  💊 Antipoison: 0801 000 180
+  📞 Violence (Vert): 8350
+
+
+═══════════════════════════════════════════════════════════════
+✨ FONCTIONNALITÉS PWA
+═══════════════════════════════════════════════════════════════
+
+  ✅ Fonctionne hors ligne (après 1ère installation)
+  ✅ Icône sur écran d'accueil
+  ✅ Pas de barre de navigateur
+  ✅ Géolocalisation en temps réel
+  ✅ Notifications (futur)
+  ✅ Chargement ultra-rapide
+
+
+═══════════════════════════════════════════════════════════════
+📚 DOCUMENTATION COMPLÈTE
+═══════════════════════════════════════════════════════════════
+
+  Guide détaillé: COMMENT_UTILISER_SUR_MOBILE.md
+  Guide complet: GUIDE_INSTALLATION_MOBILE.md
+
+
+═══════════════════════════════════════════════════════════════
+🛡️ SALAMATI - Votre sécurité, notre priorité 🇲🇦
+═══════════════════════════════════════════════════════════════
+
+Développé avec ❤️ pour les femmes marocaines
+
+⚠️ IMPORTANT: En cas de danger immédiat, appelez:
+              Police: 19 | Gendarmerie: 177

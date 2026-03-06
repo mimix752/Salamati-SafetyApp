@@ -1,0 +1,28 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9333ea;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shield-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fce7f3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded background -->
+  <rect width="512" height="512" rx="110" fill="url(#bg-gradient)"/>
+  
+  <!-- Shield icon -->
+  <path d="M256 96C256 96 160 128 160 192V288C160 352 256 416 256 416C256 416 352 352 352 288V192C352 128 256 96 256 96Z" 
+        fill="url(#shield-gradient)" stroke="#ffffff" stroke-width="12" stroke-linejoin="round"/>
+  
+  <!-- Heart in shield -->
+  <path d="M256 230C256 230 232 210 212 210C192 210 180 222 180 242C180 270 210 295 256 330C302 295 332 270 332 242C332 222 320 210 300 210C280 210 256 230 256 230Z" 
+        fill="#ec4899" stroke="#c026d3" stroke-width="4" stroke-linejoin="round"/>
+  
+  <!-- SOS text at bottom -->
+  <text x="256" y="450" font-family="Arial, sans-serif" font-size="72" font-weight="bold" 
+        fill="#ffffff" text-anchor="middle" letter-spacing="8">SOS</text>
+</svg>

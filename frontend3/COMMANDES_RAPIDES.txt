@@ -1,0 +1,351 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║        🛡️  SALAMATI - COMMANDES RAPIDES 📱                       ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🚀 DÉMARRAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Première fois:
+  ──────────────
+    npm install
+    npm run dev
+
+
+  Démarrage rapide:
+  ─────────────────
+    npm run dev
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📱 INSTALLATION SUR MOBILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Méthode 1 - Même WiFi:
+  ──────────────────────
+    1. npm run dev
+    2. Noter l'adresse Network (ex: http://192.168.1.10:5173)
+    3. Sur mobile: ouvrir cette adresse
+    4. Installer l'app
+
+
+  Méthode 2 - Ngrok (depuis n'importe où):
+  ─────────────────────────────────────────
+    Terminal 1:  npm run dev
+    Terminal 2:  ngrok http 5173
+    
+    → Ouvrir l'URL https://xxx.ngrok.io sur mobile
+    → Installer l'app
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🔧 COMMANDES UTILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Installation:
+  ─────────────
+    npm install                 # Installer dépendances
+    npm install [package]       # Ajouter package
+
+
+  Développement:
+  ──────────────
+    npm run dev                 # Serveur dev (port 5173)
+    npm run dev -- --host       # Accessible sur réseau local
+    npm run dev -- --port 3000  # Changer le port
+
+
+  Build Production:
+  ─────────────────
+    npm run build               # Build optimisé → dossier dist/
+    npm run preview             # Prévisualiser le build
+
+
+  Ngrok:
+  ──────
+    ngrok http 5173             # Tunnel public
+    ngrok http 5173 --region eu # Serveur européen
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🌐 DÉPLOIEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Vercel (Recommandé):
+  ────────────────────
+    npm install -g vercel
+    vercel                      # Première fois: suivre wizard
+    vercel --prod               # Déploiement production
+
+
+  Netlify:
+  ────────
+    npm install -g netlify-cli
+    npm run build
+    netlify deploy              # Test deploy
+    netlify deploy --prod       # Production deploy
+
+
+  GitHub Pages:
+  ─────────────
+    npm install --save-dev gh-pages
+    npm run build
+    npx gh-pages -d dist
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📚 DOCUMENTATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Guides disponibles:
+  ───────────────────
+    DEMARRAGE_RAPIDE.md         # Installation en 5 min ⭐
+    UTILISATION_MOBILE.txt      # Guide express texte ⭐
+    INSTALL_VISUAL.txt          # Guide visuel ASCII
+    COMMENT_UTILISER_SUR_MOBILE.md
+    GUIDE_INSTALLATION_MOBILE.md
+    ASTUCES_MOBILE.md
+    README.md                   # Documentation complète
+
+
+  Ouvrir un guide:
+  ────────────────
+    Windows:  notepad DEMARRAGE_RAPIDE.md
+    Mac:      open DEMARRAGE_RAPIDE.md
+    Linux:    cat DEMARRAGE_RAPIDE.md
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🔍 TROUVER VOTRE ADRESSE IP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Windows:
+  ────────
+    ipconfig
+    
+    → Chercher "Adresse IPv4" (ex: 192.168.1.10)
+
+
+  Mac:
+  ────
+    ifconfig | grep inet
+    
+    → Ligne "inet 192.168.x.x" (pas 127.0.0.1)
+
+
+  Linux:
+  ──────
+    ip addr show
+    hostname -I
+    
+    → Première adresse (ex: 192.168.1.10)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🐛 DÉPANNAGE RAPIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Erreur "Cannot find module":
+  ─────────────────────────────
+    rm -rf node_modules
+    npm install
+
+
+  Port 5173 déjà utilisé:
+  ───────────────────────
+    npm run dev -- --port 3000
+
+
+  Connexion refusée depuis mobile:
+  ─────────────────────────────────
+    1. Même WiFi?
+    2. Pare-feu désactivé?
+    3. Essayer: npm run dev -- --host
+
+
+  Build échoue:
+  ─────────────
+    npm cache clean --force
+    rm -rf node_modules dist
+    npm install
+    npm run build
+
+
+  Service Worker ne fonctionne pas:
+  ──────────────────────────────────
+    Chrome DevTools → Application → Service Workers
+    → Cliquer "Unregister" puis recharger
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎯 WORKFLOW COMPLET
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Premier lancement:
+  ─────────────────────
+     git clone [repo]
+     cd salamati
+     npm install
+     npm run dev
+
+
+  2. Test sur mobile:
+  ───────────────────
+     Terminal 1:  npm run dev
+     Terminal 2:  ngrok http 5173
+     
+     Mobile: Ouvrir URL Ngrok → Installer
+
+
+  3. Développement:
+  ─────────────────
+     • Modifier le code
+     • Recharger navigateur
+     • Tester fonctionnalités
+
+
+  4. Build et déploiement:
+  ────────────────────────
+     npm run build
+     vercel --prod
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ⚡ RACCOURCIS CLAVIER (pendant dev)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Browser:
+  ────────
+    Ctrl + R  ou  Cmd + R       # Recharger
+    Ctrl + Shift + R            # Recharger (vider cache)
+    F12                         # DevTools
+    Ctrl + Shift + I            # DevTools
+    Ctrl + Shift + J            # Console
+
+
+  Terminal:
+  ─────────
+    Ctrl + C                    # Arrêter serveur
+    Ctrl + L                    # Effacer terminal
+    ↑ / ↓                       # Historique commandes
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📊 VÉRIFICATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Chrome DevTools:
+  ────────────────
+    F12 → Application
+    
+    ✓ Manifest             # Vérifie nom, icône, etc.
+    ✓ Service Workers      # Doit être "activated"
+    ✓ Storage → Local      # Contacts enregistrés
+    ✓ Clear storage        # Réinitialiser
+
+
+  Lighthouse (Score PWA):
+  ───────────────────────
+    F12 → Lighthouse → Generate report
+    
+    Cibles:
+    • PWA: 100
+    • Performance: 90+
+    • Accessibility: 90+
+
+
+  Test Mobile:
+  ────────────
+    F12 → Toggle device toolbar (Ctrl+Shift+M)
+    
+    Tester:
+    • iPhone 12 Pro
+    • Samsung Galaxy S21
+    • iPad Air
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🔐 SÉCURITÉ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  HTTPS requis pour:
+  ──────────────────
+    ✓ Géolocalisation
+    ✓ Service Workers
+    ✓ Installation PWA
+    ✓ Notifications
+    
+    Exception: localhost (ok en HTTP)
+
+
+  Production:
+  ───────────
+    ✓ Toujours déployer sur HTTPS
+    ✓ Vérifier certificat SSL valide
+    ✓ Tester géolocalisation
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📞 NUMÉROS D'URGENCE MAROC (Dans l'app)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    🚓  Police ........................... 19
+    🚔  Gendarmerie Royale .............. 177
+    🚒  Protection Civile ................ 15
+    🚑  SAMU ............................ 141
+    💊  Centre Antipoison ...... 0801 000 180
+    📞  Violence femmes ................. 8350
+    👶  SOS Enfants .................... 2511
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  💡 ASTUCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • Gardez ce fichier ouvert pendant le développement
+  • Utilisez Ngrok si problèmes de WiFi
+  • Testez sur mobile réel (simulateur ≠ réel)
+  • Vérifiez permissions (localisation, etc.)
+  • Consultez ASTUCES_MOBILE.md pour optimisations
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ❓ AIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Commande ne fonctionne pas?
+  ───────────────────────────
+    → Vérifiez que vous êtes dans le bon dossier
+    → Tapez: pwd (Mac/Linux) ou cd (Windows)
+    → Doit afficher le chemin vers salamati/
+
+
+  Besoin d'aide?
+  ──────────────
+    1. Consultez README.md
+    2. Ouvrez DEMARRAGE_RAPIDE.md
+    3. Lisez UTILISATION_MOBILE.txt
+    4. Vérifiez ASTUCES_MOBILE.md
+
+
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║  ⚡ COMMANDE LA PLUS IMPORTANTE:                                  ║
+║                                                                   ║
+║     npm run dev                                                   ║
+║                                                                   ║
+║  Tout commence ici! 🚀                                            ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+
+═══════════════════════════════════════════════════════════════════
+
+  🛡️  SALAMATI - Votre sécurité, notre priorité 🇲🇦
+
+  Développé avec ❤️ pour les femmes marocaines
+
+═══════════════════════════════════════════════════════════════════

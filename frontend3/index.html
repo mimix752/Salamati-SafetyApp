@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr-MA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Salamati - Sécurité pour Femmes au Maroc</title>
+    <meta name="title" content="Salamati - Sécurité pour Femmes au Maroc" />
+    <meta name="description" content="Application de sécurité pour femmes adaptée au contexte marocain. Bouton SOS, contacts d'urgence, assistant juridique et bien plus." />
+    <meta name="keywords" content="salamati, sécurité femmes, maroc, SOS, urgence, protection, assistance juridique" />
+    <meta name="author" content="Salamati" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Theme Color for Mobile Browsers -->
+    <meta name="theme-color" content="#ec4899" />
+    <meta name="msapplication-TileColor" content="#ec4899" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Salamati" />
+    <meta name="application-name" content="Salamati" />
+    
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="mask-icon" href="/icon.svg" color="#ec4899" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://salamati.ma/" />
+    <meta property="og:title" content="Salamati - Sécurité pour Femmes au Maroc" />
+    <meta property="og:description" content="Application de sécurité pour femmes avec bouton SOS, contacts d'urgence et assistant juridique." />
+    <meta property="og:image" content="/icon.svg" />
+    <meta property="og:locale" content="fr_MA" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://salamati.ma/" />
+    <meta property="twitter:title" content="Salamati - Sécurité pour Femmes au Maroc" />
+    <meta property="twitter:description" content="Application de sécurité pour femmes avec bouton SOS, contacts d'urgence et assistant juridique." />
+    <meta property="twitter:image" content="/icon.svg" />
+    
+    <!-- iOS Splash Screens (optional) -->
+    <meta name="apple-mobile-web-app-status-bar" content="#ec4899" />
+    
+    <!-- Disable automatic phone number detection on iOS -->
+    <meta name="format-detection" content="telephone=no" />
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:;" />
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <style>
+      /* Loading screen styles */
+      #loading-screen {
+        position: fixed;
+        inset: 0;
+        background: linear-gradient(135deg, #ec4899 0%, #9333ea 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease-out;
+      }
+      
+      #loading-screen.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+      
+      .loading-logo {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 24px;
+        animation: pulse 2s ease-in-out infinite;
+      }
+      
+      .loading-text {
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        letter-spacing: 4px;
+      }
+      
+      .loading-subtitle {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+      }
+      
+      .loading-spinner {
+        width: 40px;
+        height: 40px;
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        border-top-color: white;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-top: 24px;
+      }
+      
+      @keyframes pulse {
+        0%, 100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        50% {
+          transform: scale(1.05);
+          opacity: 0.8;
+        }
+      }
+      
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+      <svg class="loading-logo" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M256 96C256 96 160 128 160 192V288C160 352 256 416 256 416C256 416 352 352 352 288V192C352 128 256 96 256 96Z" 
+              fill="white" fill-opacity="0.9" stroke="white" stroke-width="12" stroke-linejoin="round"/>
+        <path d="M256 230C256 230 232 210 212 210C192 210 180 222 180 242C180 270 210 295 256 330C302 295 332 270 332 242C332 222 320 210 300 210C280 210 256 230 256 230Z" 
+              fill="#ec4899" stroke="#c026d3" stroke-width="4" stroke-linejoin="round"/>
+      </svg>
+      <div class="loading-text">SALAMATI</div>
+      <div class="loading-subtitle">Votre sécurité, notre priorité 🇲🇦</div>
+      <div class="loading-spinner"></div>
+    </div>
+    
+    <!-- App Root -->
+    <div id="root"></div>
+    
+    <!-- Main Script -->
+    <script type="module" src="/src/app/main.tsx"></script>
+    
+    <!-- Hide loading screen after app loads -->
+    <script>
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          const loadingScreen = document.getElementById('loading-screen');
+          if (loadingScreen) {
+            loadingScreen.classList.add('hidden');
+            setTimeout(() => {
+              loadingScreen.remove();
+            }, 500);
+          }
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>
